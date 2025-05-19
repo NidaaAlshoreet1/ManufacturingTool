@@ -1,0 +1,11 @@
+<!-- MainWindow.xaml -->
+<Window x:Class="ManufacturingTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+        Title="Form1" Height="450" Width="800">
+    <Grid>
+        <wfi:WindowsFormsHost Name="glHost" />
+        <Button Content="Klick mich!" Click="Button_Click" />
+    </Grid>
+</Window>

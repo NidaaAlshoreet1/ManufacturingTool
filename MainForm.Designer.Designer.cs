@@ -1,11 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
+using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Input;
 using System.Drawing;
+// GLControl in den Host -Container einfügen
+using System.Windows.Forms.Integration;
+using OpenTK.WinForms;
+using System.Windows.Forms;
+
 
 namespace ManufacturingTool
 {
-
     public partial class MainForm_Designer : Form
     {
         public MainForm_Designer()
@@ -16,15 +22,7 @@ namespace ManufacturingTool
 
     partial class MainForm_Designer
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
-
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -36,13 +34,10 @@ namespace ManufacturingTool
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            // Zeile Muss in WPF geschrieben werden
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form1";
