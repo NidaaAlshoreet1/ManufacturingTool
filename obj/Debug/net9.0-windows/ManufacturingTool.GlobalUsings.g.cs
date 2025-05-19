@@ -5,4 +5,7 @@ global using global::System.Drawing;
 global using global::System.Linq;
 global using global::System.Threading;
 global using global::System.Threading.Tasks;
-global using global::System.Windows.Forms;
+global using System.Windows.Controls;
+global using System.Windows.Media;  
+global using System.Windows.Input;     
+

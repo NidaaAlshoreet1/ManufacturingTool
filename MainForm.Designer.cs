@@ -1,7 +1,10 @@
 using System;
 using System.Drawing;
 using System.IO;
-using System.Windows.Forms;
+using System.Windows;            
+using System.Windows.Controls;
+using System.Windows.Media;  
+using System.Windows.Input;     
 using OpenTK;
 using OpenTK.Graphics.OpenGL;
 using OpenTK.Mathematics; 
