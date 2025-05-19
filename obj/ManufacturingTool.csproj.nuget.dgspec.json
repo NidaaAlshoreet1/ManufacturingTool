@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Source\\Repos\\ManufacturingTool\\ManufacturingTool.csproj": {}
+    "D:\\Source\\Repos\\ManufacturingTool\\ManufacturingTool.csproj": {}
   },
   "projects": {
-    "d:\\Source\\Repos\\ManufacturingTool\\ManufacturingTool.csproj": {
+    "D:\\Source\\Repos\\ManufacturingTool\\ManufacturingTool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Source\\Repos\\ManufacturingTool\\ManufacturingTool.csproj",
+        "projectUniqueName": "D:\\Source\\Repos\\ManufacturingTool\\ManufacturingTool.csproj",
         "projectName": "ManufacturingTool",
-        "projectPath": "d:\\Source\\Repos\\ManufacturingTool\\ManufacturingTool.csproj",
+        "projectPath": "D:\\Source\\Repos\\ManufacturingTool\\ManufacturingTool.csproj",
         "packagesPath": "C:\\Users\\NidaaAliEssaAlshoree\\.nuget\\packages\\",
-        "outputPath": "d:\\Source\\Repos\\ManufacturingTool\\obj\\",
+        "outputPath": "D:\\Source\\Repos\\ManufacturingTool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -79,7 +79,7 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },
-            "Microsoft.WindowsDesktop.App": {
+            "Microsoft.WindowsDesktop.App.WPF": {
               "privateAssets": "none"
             }
           },
