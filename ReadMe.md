@@ -12,5 +12,5 @@ dotnet add package geometry3Sharp``
 
 # Changing the Proj. to WPF
 by Adding the Fowling in .csproj
-``    <UseWPF>true</UseWPF> ``
-``    <UseWindowsForms>true</UseWindowsForms> ``# ManufacturingTool
+``<UseWPF>true</UseWPF> ``
+``<UseWindowsForms>true</UseWindowsForms> ``# ManufacturingTool
